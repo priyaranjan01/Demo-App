@@ -22,7 +22,6 @@ const Routes = () => {
             headerStyle: {
               backgroundColor: '#485199',
             },
-            gestureDirection: 'horizontal-inverted',
           }}
         />
         <Stack.Screen
@@ -30,7 +29,6 @@ const Routes = () => {
           component={Home}
           options={{
             title: 'Home',
-            gestureDirection: 'horizontal-inverted',
           }}
         />
         <Stack.Screen
@@ -38,7 +36,6 @@ const Routes = () => {
           component={Signup}
           options={{
             title: 'Signup',
-            gestureDirection: 'horizontal-inverted',
           }}
         />
         <Stack.Screen
@@ -46,7 +43,6 @@ const Routes = () => {
           component={Favourite}
           options={{
             title: 'Favourite Products',
-            gestureDirection: 'horizontal-inverted',
           }}
         />
       </Stack.Navigator>
